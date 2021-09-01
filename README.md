@@ -3,6 +3,8 @@
 Write a function that validates that a []string of files contains all the
 expected files, and no unexpected files.  
 
+For extra points return what files are missing/unexpected
+
 The expected files include cluster specific and node specific files. 
 
 ```
