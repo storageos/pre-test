@@ -1,11 +1,18 @@
 # PRE-Test
 
-Write a function that validates that a []string of files contains all the
-expected files, and no unexpected files.  
+StorageOS can generate a diagnostic bundle as part of support engagements with
+customers. As part of our acceptance tests we want to validate that the
+diagnostic bundle contains all the files we expect, and no files that we did not
+expect. 
 
-For extra points return what files are missing/unexpected
+Finish the function verifyBundle() that validates that a []string of files
+contains all the expected files, and no unexpected files. The code you write
+should be called by verifyBundle() and pass the TestVerifyBundle test.
 
-The expected files include cluster specific and node specific files. 
+For extra points return what files are missing/unexpected.
+
+The expected files include cluster specific and node specific files. Each node
+in the cluster is expected to return all of the node specific files.
 
 ```
 # Cluster specific files
