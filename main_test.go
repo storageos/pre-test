@@ -16,7 +16,7 @@ func TestVerifyBundle(t *testing.T) {
 		{
 			Name: "All expected files",
 			files: []string{
-				"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z/",
+				"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z",
 				"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z/cluster_config",
 				"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z/namespace_partitions",
 				"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z/node_240c0131-6cae-4951-a3a7-33933eef2fed",
@@ -59,7 +59,7 @@ func TestVerifyBundle(t *testing.T) {
 		{
 			Name: "All expected files - two nodes",
 			files: []string{
-				"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z/",
+				"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z",
 				"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z/cluster_config",
 				"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z/namespace_partitions",
 				"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z/node_240c0131-6cae-4951-a3a7-33933eef2fed",
@@ -136,7 +136,7 @@ func TestVerifyBundle(t *testing.T) {
 		{
 			Name: "Unexpected cluster- and node-specific files",
 			files: []string{
-				"/tmp/diagBundle-76461881/HttpClientFile095427323/2021-03-04T11-10-45.769125854Z/",
+				"/tmp/diagBundle-76461881/HttpClientFile095427323/2021-03-04T11-10-45.769125854Z",
 				"/tmp/diagBundle-76461881/HttpClientFile095427323/2021-03-04T11-10-45.769125854Z/node_83662212-59d5-44b6-a381-65bc7f4f0e7d",
 				"/tmp/diagBundle-76461881/HttpClientFile095427323/2021-03-04T11-10-45.769125854Z/node_83662212-59d5-44b6-a381-65bc7f4f0e7d/cached_licence",
 				"/tmp/diagBundle-76461881/HttpClientFile095427323/2021-03-04T11-10-45.769125854Z/node_83662212-59d5-44b6-a381-65bc7f4f0e7d/capacity",
@@ -182,7 +182,7 @@ func TestVerifyBundle(t *testing.T) {
 		{
 			Name: "Missing cluster- and node-specific files",
 			files: []string{
-				"/tmp/diagBundle-76461881/HttpClientFile095427323/2021-03-04T11-10-45.769125854Z/",
+				"/tmp/diagBundle-76461881/HttpClientFile095427323/2021-03-04T11-10-45.769125854Z",
 				"/tmp/diagBundle-76461881/HttpClientFile095427323/2021-03-04T11-10-45.769125854Z/node_83662212-59d5-44b6-a381-65bc7f4f0e7d",
 				"/tmp/diagBundle-76461881/HttpClientFile095427323/2021-03-04T11-10-45.769125854Z/node_83662212-59d5-44b6-a381-65bc7f4f0e7d/cached_licence",
 				"/tmp/diagBundle-76461881/HttpClientFile095427323/2021-03-04T11-10-45.769125854Z/node_83662212-59d5-44b6-a381-65bc7f4f0e7d/capacity",
