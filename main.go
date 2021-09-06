@@ -57,7 +57,7 @@ var clusterFiles = []string{
 
 // files contains a slice of walked file paths from a StorageOS diagnostic bundle.
 var files = []string{
-	"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z",
+	"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z/",
 	"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z/cluster_config",
 	"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z/namespace_partitions",
 	"/tmp/diagBundle-90976411/HttpClientFile771489167/2021-09-03T15-56-35.195000555Z/node_240c0131-6cae-4951-a3a7-33933eef2fed",
