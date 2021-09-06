@@ -225,12 +225,15 @@ func TestVerifyBundle(t *testing.T) {
 	}
 
 	for _, tt := range bundleStructs {
-		err := verifyBundle(tt.files, tt.NodeIDs)
-		if tt.wantErr {
-			require.Error(t, err, "wanted error but got none")
-			continue
-		}
+		t.Run(tt.Name, func(st *testing.T) {
+			err := verifyBundle(tt.files, tt.NodeIDs)
+			if tt.wantErr {
+				require.Error(st, err, "wanted error but got none")
+				return
+			}
 
-		require.NoError(t, err, "wanted no error but got err")
+			require.NoError(st, err, "wanted no error but got err")
+		})
+
 	}
 }
