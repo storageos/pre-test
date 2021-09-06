@@ -3,11 +3,14 @@
 StorageOS can generate a diagnostic bundle as part of support engagements with
 customers. As part of our acceptance tests we want to validate that the
 diagnostic bundle contains all the files we expect, and no files that we did not
-expect. 
+expect. This scenario asks you to complete a function that validates a []string
+of file paths passed by an unpackDiagnosticBundle function. The file paths are
+generated using filepath.Walk so the ordering of files is lexical.
 
 Finish the function verifyBundle() that validates that a []string of files
-contains all the expected files, and no unexpected files. The code you write
-should be called by verifyBundle() and pass the TestVerifyBundle test.
+contains all the expected files, and no unexpected files, for the provided node
+IDs. The code you write should be called by verifyBundle() and pass the
+TestVerifyBundle test.
 
 For extra points return what files are missing/unexpected.
 
